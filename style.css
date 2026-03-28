@@ -1,0 +1,23 @@
+.purple{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.blue{
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin: 30px;
+}
+
+.flex{
+    display: flex;
+}
+
+.botao{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
