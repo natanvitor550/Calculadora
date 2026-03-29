@@ -7,27 +7,27 @@ let tipoOperacao = 0;
 
 function soma(){
 operacao = "+";
-tipoOperacao = 1;
-numeroAtual = 2;
 textoTela()
+numeroAtual = 2;
+tipoOperacao = 1;
 }
 function subtracao(){
 operacao = "-";
-tipoOperacao = 4;
-numeroAtual = 2;
 textoTela()
+numeroAtual = 2;
+tipoOperacao = 2;
 }
 function multiplicacao(){
 operacao = "*";
-tipoOperacao = 2;
-numeroAtual = 2;
 textoTela()
+numeroAtual = 2;
+tipoOperacao = 3;
 }
 function divisao(){
 operacao = "/";
-tipoOperacao = 3;
-numeroAtual = 2;
 textoTela()
+numeroAtual = 2;
+tipoOperacao = 4;
 }
 function resultado(){
     numeroBotao1 = parseFloat(numeroBotao1);
@@ -37,15 +37,15 @@ function resultado(){
         resultado = numeroBotao1 + numeroBotao2;
         break;
         case 2:
-        resultado = numeroBotao1 * numeroBotao2;
-        break;
-        case 3:
-        resultado = numeroBotao1 / numeroBotao2;
-        break;
-        case 4:
-        resultado = numeroBotao1 - numeroBotao2
-        break;
-    }
+            resultado = numeroBotao1 - numeroBotao2
+            break;
+            case 3:
+                resultado = numeroBotao1 * numeroBotao2;
+                break;
+                case 4:
+                    resultado = numeroBotao1 / numeroBotao2;
+                    break;
+                }
     textoTela()
 numeroBotao1 = "";
 numeroBotao2 = "";
