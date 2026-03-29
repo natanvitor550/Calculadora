@@ -1,12 +1,12 @@
-.purple{
-    background-color: blueviolet;
+.cadet{
+    background-color:cadetblue;
     display: flex;
     justify-content: center;
     padding: 30px;
 }
 
-.blue{
-    background-color: cornflowerblue;
+.gray{
+    background-color: gray;
     padding: 20px;
     margin: 30px;
 }
@@ -15,17 +15,15 @@
     display: flex;
 }
 
-.botao{
-    background-color: cornflowerblue;
-    padding: 25px;
-    margin: 10px;
-}
 
-.botao2{
+
+.tela{
     background-color: white;
     padding: 20px;
     margin: 10px;
 }
+
+
 
 button{
     background-color: white;
