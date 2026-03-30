@@ -7,43 +7,43 @@ let tipoOperacao = 0;
 
 function soma(){
 operacao = "+";
-textoTela()
 numeroAtual = 2;
 tipoOperacao = 1;
+textoTela();
 }
 function subtracao(){
 operacao = "-";
-textoTela()
 numeroAtual = 2;
 tipoOperacao = 2;
+textoTela();
 }
 function multiplicacao(){
 operacao = "*";
-textoTela()
 numeroAtual = 2;
 tipoOperacao = 3;
+textoTela();
 }
 function divisao(){
 operacao = "/";
-textoTela()
 numeroAtual = 2;
 tipoOperacao = 4;
+textoTela();
 }
 function resultado(){
     numeroBotao1 = parseFloat(numeroBotao1);
     numeroBotao2 = parseFloat(numeroBotao2);
     switch(tipoOperacao){
         case 1:
-        resultado = numeroBotao1 + numeroBotao2;
+        resultadoFinal = numeroBotao1 + numeroBotao2;
         break;
         case 2:
-            resultado = numeroBotao1 - numeroBotao2
+            resultadoFinal = numeroBotao1 - numeroBotao2
             break;
             case 3:
-                resultado = numeroBotao1 * numeroBotao2;
+                resultadoFinal = numeroBotao1 * numeroBotao2;
                 break;
                 case 4:
-                    resultado = numeroBotao1 / numeroBotao2;
+                    resultadoFinal = numeroBotao1 / numeroBotao2;
                     break;
                 }
     textoTela()
@@ -52,7 +52,7 @@ numeroBotao2 = "";
 numeroAtual = 1;
 }
 function textoTela(){
-    document.getElementById("texto").innerHTML = numeroBotao1 + tipoOperacao + numeroBotao2 + " = " + resultadoFinal;
+    document.getElementById("texto").innerHTML = numeroBotao1 + operacao + numeroBotao2 + " = " + resultadoFinal;
 }
 function botao1(){
 if (numeroAtual == 1)
